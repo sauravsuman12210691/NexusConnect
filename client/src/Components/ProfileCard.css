@@ -1,0 +1,49 @@
+.card{
+    /* position: fixed; */
+    padding: 10px 10px;
+    border-radius: 9px;
+    border: none;
+    left: 4vh;
+    position:fixed;
+    top: 15vh;
+    background-color: #343434c7;
+    min-height: 40vh;
+    display: inline-block;
+    width: 20vw;
+}
+.img{
+    padding: 3px;
+    color: white;
+    gap: 15px;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+#profileImg{
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
+}
+.personalDetails li{
+    padding:10px 10px;
+    margin-top: 3px;
+list-style: none;
+color: white;
+    border-bottom: 1px solid white;
+display: flex;
+gap: 5px;
+}
+.editBtn{
+    margin-left: 4vh;
+    cursor: pointer;
+    border: none;
+    outline: none;
+border-radius: 6px;
+    align-items: center;
+    height: 25px;
+   width: 50%;
+    position: absolute;
+    bottom: 0;
+}
+.editBtn:hover{
+   background-color: rgb(133, 133, 185);
+}

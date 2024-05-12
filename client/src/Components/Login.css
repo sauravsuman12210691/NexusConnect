@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form{
+  
+    background-color: white;
+    height: 50vh; 
+    width: 30vw;
+   
+    
+  border: none;
+  border-radius: 9px;
+  /* box-shadow: #737278bd 0px 0px 8px 4px; */
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+}
+.outerBox{
+    margin-top: 40vh;
+    margin-left: 20vw;
+    display: flex;
+    gap: 10px;
+  
+    
+}
+#btn{
+    background-color: rgb(62, 62, 222);
+    color: white;
+    width: 25vw;
+    height: 9vh;
+    border: none;
+    border-radius: 2px;
+}
+body{
+    /* background-color:#d1d7dd; */
+    background-color:black;
+}
+#email,#password{
+    width: 25vw;
+    height: 9vh;
+}
+
+#title1{
+    
+    font-size: 10vh;
+    color: rgb(62, 62, 222);
+}
+#red{
+    color: red;
+}

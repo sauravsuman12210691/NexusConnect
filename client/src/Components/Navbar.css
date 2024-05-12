@@ -1,0 +1,42 @@
+.flex{
+    display: flex;
+}
+.nav{
+    box-shadow: rgb(17 17 26 / 34%) 2px 6px 16px 14px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    position: fixed;
+    width: 100%;
+    padding: 8px 11px 10px 0px;
+    background-color: #343434c7;
+    color: white;
+    align-items: center;
+    z-index: 1000;
+    justify-content: space-between;
+   
+    
+}
+.nav ul li{
+    cursor: pointer;
+    margin-left: 10px;
+    list-style: none;
+
+}
+.left{
+
+    
+}
+.right{
+    
+}
+#search{
+    margin-left: 4px;
+    margin-top: 3px;
+    padding: 3px;
+    border: none;
+    border-radius: 4px;
+    width: 25vw;
+    height: 5vh;
+}
+#logo{
+    color:#4DAA;
+    font-size: 1.5rem;
+}

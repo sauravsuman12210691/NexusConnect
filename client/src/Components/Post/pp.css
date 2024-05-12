@@ -1,0 +1,44 @@
+.mar{
+    margin-top: 5vh;
+    position: relative;
+    padding: 10px;
+    background-color: #343434c7;
+    top: 30vh;
+    margin-left: 30vw;
+    /* z-index: 50000; */
+    color: white;
+    /* border: 2px solid white; */
+    border: none;
+    border-radius: 9px;
+    min-height: 60vh;
+    width: 35vw;
+    display: inline-block; /* or inline-flex */
+    
+}
+.vv{
+    height: 10vh;
+    background-color:white;
+
+}
+.postimg{
+gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.postimg img{
+
+    height:55vh;
+    width: 100%;
+}
+.mar ul li{
+    list-style: none;
+
+
+}
+
+#Pimg{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 100%;
+}

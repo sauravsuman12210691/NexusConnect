@@ -1,0 +1,54 @@
+
+.form1{
+  padding: 9px 9px;
+    background-color: white;
+    height: 70vh; 
+    width: 30vw;
+   
+    
+  border: none;
+  border-radius: 9px;
+ 
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+   
+     justify-content: center;
+     display: flex;
+     align-items: center;
+}
+.outerBox1{
+    margin-top: 25vh;
+    margin-left: 20vw;
+    display: flex;
+    gap: 20px;
+  
+    
+}
+#btn1{
+    color: white;
+    width: 25vw;
+    height: 9vh;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(222, 211, 62);
+}
+
+#email,#password,#name{
+    width: 25vw;
+    height: 9vh;
+}
+#title{
+    
+    font-size: 10vh;
+    color: rgb(62, 62, 222);
+}
+.registerBtn{
+    background-color: rgb(62, 62, 222);
+    color: white;
+    width: 25vw;
+    height: 9vh;
+    border: none;
+    border-radius: 2px;
+}
+.white{
+    color:white;
+}
